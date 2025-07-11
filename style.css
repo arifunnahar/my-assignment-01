@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+.base-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Common Classes */
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+.btn {
+  width: 132px;
+  height: 48px;
+  background-color: #4E47FF;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 16px;
+  
+ 
+}
+
+.btn:hover {
+  background-color: red;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #F5F8FF;
+}
+
+/* header section*/
+
+header {
+  
+  padding-top: 16px;
+  height: 520px;
+}
+
+.brand-logo {
+  font-size: 24px;
+  font-weight: bolder;
+  font-family: "Inter", sans-serif;
+  color: #4E47FF;
+ 
+}
+
+.nav-bar {
+  width: 1140px;
+  display: flex;
+}
+
+.hero-section {
+  flex-direction: column;
+  margin-top: 165px;
+  gap: 30px;
+}
+
+.hero-section h1 {
+  font-size: 64px;
+  width: 905px;
+  text-align: center;
+  color: #252432;
+}
+
+.btn-primary {
+  width: 174px;
+}
+
+/* Demo Section */
+.demo-section {
+  margin-top: 133px;
+  margin-bottom: 116px;
+}
+
+.demo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.demo-text p {
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+  width: 517px;
+}
+
+.demo-text h1 {
+  font-size: 42px;
+  color: #252432;
+}
+
+.btn-secondary {
+  width: 229px;
+}
+
+.demo-image img {
+  width: 402px;
+  height: 327px;
+  border-radius: 47px;
+}
+
+/* Stats Section */
+.stats-section {
+  background-color: rgba(78, 91, 255, 0.1);
+  border-radius: 47px;
+  height: 275px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-top: 50px;
+  display: flex;
+  font-size: 20px;
+ 
+}
+
+.stats-cards {
+  justify-content: center;
+  gap: 167px;
+}
+
+.stat-card h1 {
+  font-size: 70px;
+  color: #4E47FF;
+  font-family: "Inter", sans-serif;
+}
+
+.stat-card p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.2);
+  font-family: "Inter", sans-serif;
+  padding-top: 10px;
+}
+
+/* customer review section */
+
+.customer-review-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  margin-top: 137px;
+  padding-bottom: 137px;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.review-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 44px;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: start;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 24px;
+  width: 366.67px;
+}
+
+.review-text h2 {
+  font-family: 'AG Heading', sans-serif;
+}
+
+.review-text p {
+  width: 318.67px;
+  color: #1E1E1E;
+  font-weight: 500;
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.reviewer-info {
+  display: flex;
+  gap: 12px;
+  justify-content: start;
+}
+
+.reviewer-photo img {
+  border-radius: 50%;
+}
+
+.reviewer-details h4 {
+  color: #757575;
+  font-family: 'AG Heading', sans-serif;
+  font-size: 18px;
+}
+
+.reviewer-details p {
+  color: #B3B3B3;
+  font-family: 'AG Heading', sans-serif;
+  font-size: 18px;
+}
+/* Contact Section */
+
+
+.contact-section {
+  margin-top: 92.3px;
+  margin-bottom: 85px;
+}
+
+.contact-left h1 {
+  font-size: 97px;
+  width: 528px;
+}
+
+.contact-form form {
+  width: 497px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  padding: 5px 15px;
+  font-size: 20px;
+  font-weight: 341;
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  border: 0.5px solid rgba(37, 36, 50, 0.5);
+}
+
+.contact-form label {
+  font-size: 18px;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.btn-contact {
+  margin-top: 15px;
+  width: 497px;
+}
+
+/* footer section*/
+footer {
+  padding: 75px 0px;
+  background-color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-brand h1 {
+  font-size: 85px;
+  font-family: "Inter", sans-serif;
+  color: #4E47FF;
+}
+
+.footer-description {
+  width: 531px;
+  text-align: center;
+  color: #8987A1;
+  font-size: 19px;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-top: 15px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #8987A1;
+  font-size: 19px;
+}
