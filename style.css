@@ -47,7 +47,7 @@ body {
 /* header section*/
 
 header {
-  
+  background-image: url("styles/Hero-bg.png");
   padding-top: 16px;
   height: 520px;
 }
